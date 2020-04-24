@@ -55,7 +55,7 @@ covid.plot <- ggplot(covid_table, aes(x = reorder(Country_Region, deaths_per_mil
          geom_bar(stat = "identity", fill = "blue") +
   coord_flip() +
   labs(title = "COVID-19 deaths per 1 million population",
-       subtitle = "Selected countries as of June 23, 2020",
+       subtitle = "Selected countries as of April 23, 2020",
        caption = "Source: Johns Hopkins CSSE.",
        x = "",
        y = "") +
